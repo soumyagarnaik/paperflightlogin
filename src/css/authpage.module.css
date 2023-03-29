@@ -1,0 +1,33 @@
+.container{
+    margin: 0;
+    padding: 0;
+    background-image: url('../assets/fishing.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    max-width: 100vw;
+    position: relative;
+}
+
+.loginCard{
+    position: absolute;
+    top: 143px;
+    left: 735px;
+}
+
+
+@media only screen and (max-width: 760px) {
+    .container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      max-width: 760px;
+    }
+
+    .loginCard{
+        position: static;
+        top: 155px;
+        left: 735px;
+    }
+  }

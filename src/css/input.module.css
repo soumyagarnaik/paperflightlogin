@@ -1,0 +1,35 @@
+.inputContainer{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding:0 1rem;
+}
+
+.label{
+    font-size: 14px;
+    padding: 8px 0;
+    font-style: italic;
+    color: #717274;
+
+}
+
+.input{
+    border: none;
+    border-bottom: 1px solid #000000;
+    outline: none;
+    width: 100%;
+    margin-top: 8px 0;
+    font-style: italic;
+    color: #000000;
+    background: transparent;
+}
+
+.alertMessage{
+    margin:4px 0 ;
+    font-weight: 500;
+    color: #E51058;
+    font-size: 12px;
+}
