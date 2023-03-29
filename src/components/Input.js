@@ -4,7 +4,6 @@ import { Field } from 'formik'
 
 const Input = (props) => {
     const {labelName,type,errors,touched} = props
-    console.log(errors,touched)
   return (
     <div className={styles.inputContainer}>
         <label htmlFor={labelName} className={styles.label}>{labelName}</label>

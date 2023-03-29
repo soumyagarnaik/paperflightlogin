@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Prosto+One&display=swap');
+
 .inputContainer{
     margin: 0;
     padding: 0;
@@ -13,6 +15,7 @@
     padding: 8px 0;
     font-style: italic;
     color: #717274;
+    font-family: 'Montserrat', sans-serif;
 
 }
 
@@ -29,7 +32,8 @@
 
 .alertMessage{
     margin:4px 0 ;
-    font-weight: 500;
+    font-weight: 900;
     color: #E51058;
     font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
 }

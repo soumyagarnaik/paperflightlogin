@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Prosto+One&display=swap');
 .card{
     height: 430px;
     width: 320px;
@@ -26,6 +27,7 @@
     text-align: justify;
     max-width: 9rem;
     font-weight:800 ;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .formContainer{
@@ -41,7 +43,7 @@
     font-weight: 400;
     cursor: pointer;
     cursor: pointer;
-
+    font-family: 'Montserrat', sans-serif;
 }
 
 .submitButton{
@@ -64,10 +66,19 @@
     top: 270px;
     left: 70px;
     padding: 1px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .signup{
     color: #E51058;
     margin-left: 3px;
     cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
 }
+
+
+@media only screen and (max-width: 760px) {
+    .card {
+      background: #ffffff;
+    }
+  }
